@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+
+import Header from "./Header";
+import Content from "./Content";
+import Footer from "./Footer";
 // import Hello from './Hello';
 
 // const styles = {
@@ -19,7 +23,9 @@ class MyComponent extends Component {
   render() {
     return (
       <div>
-        <h1>Bla Bla Bla</h1>
+        <Header />
+        <Content />
+        <Footer />
       </div>
     );
   }
